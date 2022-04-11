@@ -8,11 +8,7 @@ This repo contains the starter code for the Route Planning project.
 
 When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone https://github.com/TusarKP/Route_Planning_Project.git --recurse-submodules
 ```
 
 ## Dependencies for Running Locally
@@ -29,7 +25,7 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
 * IO2D
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
- 
+
 
 ## Compiling and Running
 
@@ -82,7 +78,7 @@ The testing executable is also placed in the `build` directory. From within `bui
 	sudo apt install libcairo2-dev
 	sudo apt install libgraphicsmagick1-dev
 	sudo apt install libpng-dev
-
+   
 	git clone --recurse-submodules https://github.com/cpp-io2d/P0267_RefImpl
 	cd P0267_RefImpl
 	mkdir Debug
@@ -91,15 +87,14 @@ The testing executable is also placed in the `build` directory. From within `bui
 	cmake --build .
 	sudo make install
    ```
-     
+   
  * If you are working on windows and unable to install IO2D:
       * Enable WSL (Windows Subsystem for Linux) and use a distribution like [Ubuntu](https://ubuntu.com/wsl).(available from the windows store): 
       * Install the required dependencies (compiler, cmake etc.) in the WSL(as mentioned above for ubuntu)
       * Configure CLion to use the WSL [toolchain](https://www.jetbrains.com/help/clion/how-to-use-wsl-development-environment-in-product.html#wsl-tooclhain)
       * Use the WSL toolchain to build the project
       * If you are still facing errors, visit this [link](https://github.com/udacity/CppND-Route-Planning-Project/issues/9).
-     
+
 
 * If you are facing errors with --config try to remove -- from the command.
-
 
